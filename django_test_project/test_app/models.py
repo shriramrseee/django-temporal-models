@@ -1,6 +1,11 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-from django.db import models
+from temporal_models import AbstractTemporalModel
 
-# Create your models here.
+
+class TestModel(AbstractTemporalModel):
+    """
+    This is a basic test model.
+    """
+    pass

@@ -9,7 +9,7 @@ class AbstractTemporalModel(models.Model):
 
     StartTimeStamp = models.DateTimeField(auto_now_add=True)
     EndTimeStamp = models.DateTimeField(
-        default=datetime(year=9999, month=12, day=31, hour=23, minute=59, second=59, microseconds=999999))
+        default=datetime(year=9999, month=12, day=31, hour=23, minute=59, second=59, microsecond=999999))
 
     class Meta:
         abstract = True
