@@ -1,3 +1,3 @@
 # Import the modules here
 
-import models
+from models import AbstractTemporalModel
